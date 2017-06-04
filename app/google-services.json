@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "37880144008",
+    "firebase_url": "https://fir-database-41558.firebaseio.com",
+    "project_id": "fir-database-41558",
+    "storage_bucket": "fir-database-41558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37880144008:android:0fa6147fdd4defa4",
+        "android_client_info": {
+          "package_name": "trickandroid.firebasedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37880144008-c170dinh1kkiis7mrfnp7as6id4g7o1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trickandroid.firebasedatabase",
+            "certificate_hash": "7f32fd01e1c98be80adc58f1e8d702c4a33f2510"
+          }
+        },
+        {
+          "client_id": "37880144008-mabkv5chvovijmlekdakrjt5k3sg4mg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_uc0L2XaW-Pkf8llk_4blwrAdgCfr410"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37880144008-mabkv5chvovijmlekdakrjt5k3sg4mg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

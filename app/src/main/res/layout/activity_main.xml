@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="trickandroid.firebasedatabase.MainActivity">
+
+
+    <EditText
+        android:hint="E-Mail"
+        android:id="@+id/loginEmailET"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:hint="Password"
+        android:layout_marginTop="16dp"
+        android:id="@+id/loginPassET"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/loginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Don't have an Account... \nClick below to create an account..."/>
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/createAccBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an account"/>
+
+</LinearLayout>
